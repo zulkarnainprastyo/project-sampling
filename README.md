@@ -20,11 +20,21 @@
 - Explain the background of the problem with supporting data.
 - Explain the benefits of your research results.
 
+In recent years, physics-informed neural networks (PINNs) [1] have emerged as a powerful tool for solving forward and inverse problems of partial differential equations (PDEs) using deep neural networks (DNNs) [2, 3, 4].
+The effect of residual points on PINNs is intuitively similar to the effect of mesh points on FEM, and thus the location and distribution of these residual points should be critical to the performance of PINNs.
+In this study, I looked at
+ Extensively compared the performance of different uniform sampling methods, including (1) equispaced uniform grid, (2) uniformly random sampling, (3) LHS, (4) Sobol sequence, (5) Halton sequence, and (6) Hammersley sequence.
+In this study, I considered a total of 10 different sampling techniques, including seven non-adaptive sampling techniques (six different uniform sampling and one uniform sampling with resampling) and three adaptive sampling methods (RAR, RAD, and RAR-D).
+
+ I compared the performance of these sampling methods on four PDE forward problems and examined the effect of the number of residual points.
+
 ## Sampling Design
 - Describe it according to the stages described on the previous page.
 - Create illustrations to taste.
 - Create math equations neatly. For example, using Latex.
 - Also explain the reasons why you chose the design.
+
+PINNs use uniform sampling and nonuniform residual-based adaptive sampling to improve accuracy and training efficiency.
 
 ## Analysis
 - Describe the results of your sampling design.
