@@ -1,6 +1,6 @@
 **Pacmann AI**
 
-# sampling: Non-adaptive and adaptive sampling based on residuals for PINN
+# sampling: Non-adaptive and adaptive sampling based on residuals for Neural networks based on physical information
 
 [@github:zulkarnainprastyo](https://github.com/zulkarnainprastyo), [@medium:Zulkarnain Prastyo](https://medium.com/@zulkarnain.prastyoumb23093)
 
